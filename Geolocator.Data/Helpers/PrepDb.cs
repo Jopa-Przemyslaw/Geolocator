@@ -1,6 +1,4 @@
-﻿using System;
-using System.Linq;
-using Geolocator.Data.Models;
+﻿using Geolocator.Data.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
