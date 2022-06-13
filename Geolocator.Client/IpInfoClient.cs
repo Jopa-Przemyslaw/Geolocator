@@ -19,12 +19,21 @@ public class IpInfoClient : IIpInfoClient
     public async Task<IpInfo?> Send(string ip)
     {
         var request = new HttpRequestMessage(HttpMethod.Get, _configuration.GetConnectionString("IpInfoClient") + ip);
-        var response = await _httpClient.SendAsync(request);
-        using var reader = new StreamReader(await response.Content.ReadAsStreamAsync());
-        var responseBody = await reader.ReadToEndAsync();
+        
+        try
+        {
+            var response = await _httpClient.SendAsync(request);
+            using var reader = new StreamReader(await response.Content.ReadAsStreamAsync());
+            var responseBody = await reader.ReadToEndAsync();
 
-        var ipInfo = JsonConvert.DeserializeObject<IpInfo>(responseBody);
+            var ipInfo = JsonConvert.DeserializeObject<IpInfo>(responseBody);
 
-        return ipInfo;
+            return ipInfo;
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex);
+            throw;
+        }
     }
 }
