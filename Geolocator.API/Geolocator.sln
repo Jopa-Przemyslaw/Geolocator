@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Geolocator.API", "Geolocator.API.csproj", "{D6B2032E-A3F9-4700-A8A9-79F0D4FDA955}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Geolocator.Services", "..\Geolocator.Services\Geolocator.Services.csproj", "{CE50C052-C5EF-4E8A-8010-A6D1782AAE15}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Geolocator.Data", "..\Geolocator.Data\Geolocator.Data.csproj", "{C16B7A90-6939-4FC3-B517-BBC29B693D9D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Geolocator.DTO", "..\Geolocator.DTO\Geolocator.DTO.csproj", "{972A9088-EEAD-4291-BCBA-11794AFE76A9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Geolocator.Client", "..\Geolocator.Client\Geolocator.Client.csproj", "{36A2ABB6-88B2-45E9-B8AC-B7BA570A7A20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geolocator.UnitTest", "..\Geolocator.UnitTest\Geolocator.UnitTest.csproj", "{869F989D-38D8-4894-AC6F-25C78696B149}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6B2032E-A3F9-4700-A8A9-79F0D4FDA955}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6B2032E-A3F9-4700-A8A9-79F0D4FDA955}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6B2032E-A3F9-4700-A8A9-79F0D4FDA955}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6B2032E-A3F9-4700-A8A9-79F0D4FDA955}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE50C052-C5EF-4E8A-8010-A6D1782AAE15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE50C052-C5EF-4E8A-8010-A6D1782AAE15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE50C052-C5EF-4E8A-8010-A6D1782AAE15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE50C052-C5EF-4E8A-8010-A6D1782AAE15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C16B7A90-6939-4FC3-B517-BBC29B693D9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C16B7A90-6939-4FC3-B517-BBC29B693D9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C16B7A90-6939-4FC3-B517-BBC29B693D9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C16B7A90-6939-4FC3-B517-BBC29B693D9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{972A9088-EEAD-4291-BCBA-11794AFE76A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{972A9088-EEAD-4291-BCBA-11794AFE76A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{972A9088-EEAD-4291-BCBA-11794AFE76A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{972A9088-EEAD-4291-BCBA-11794AFE76A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36A2ABB6-88B2-45E9-B8AC-B7BA570A7A20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36A2ABB6-88B2-45E9-B8AC-B7BA570A7A20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36A2ABB6-88B2-45E9-B8AC-B7BA570A7A20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36A2ABB6-88B2-45E9-B8AC-B7BA570A7A20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{869F989D-38D8-4894-AC6F-25C78696B149}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{869F989D-38D8-4894-AC6F-25C78696B149}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{869F989D-38D8-4894-AC6F-25C78696B149}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{869F989D-38D8-4894-AC6F-25C78696B149}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AF4C3870-400B-4039-98B9-A649DDB8133A}
+	EndGlobalSection
+EndGlobal
