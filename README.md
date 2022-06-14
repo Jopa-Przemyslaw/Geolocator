@@ -53,4 +53,4 @@ GET: https://geolocator-webapp-acr.azurewebsites.net/v1/Geolocation
 <br>
 POST: https://geolocator-webapp-acr.azurewebsites.net/v1/Geolocation
 with en example json body described above
-<br> DELETE: https://geolocator-webapp-acr.azurewebsites.net/v1/Geolocation/27.88.171.22
+<br> DELETE: https://geolocator-webapp-acr.azurewebsites.net/v1/Geolocation/_{ip_address}_
