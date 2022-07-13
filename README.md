@@ -39,6 +39,7 @@ Example:<br>
 DELETE: /v1/Geolocation/_{ip_address}_<br>
 
 ### Deployed in Azure
+_**Note**: Hosting this API in Azure is currently disabled._<br>
 App is hosted in cloud. Both, Web App and Sql Db are hosted in Azure.<br>
 Available under: https://geolocator-webapp-acr.azurewebsites.net/ (available endpoints are described below).
 
